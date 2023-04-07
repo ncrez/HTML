@@ -8,12 +8,25 @@
         table, th, td {
             border: 1px solid black;
         }
+        body{
+            background-image:url("v960-ning-30.jpg") ;
+            background-size: cover;
+        }
+
+        
     </style>
 </head>
-<body dir="rtl">
-	<h1>HTML course</h1>
-    <img src="html.jpg" height="150" width="150" alt="HTML logo">
-	<h2>course description</h2>
+<body style="background-image: url(background.webp) no-repeat;" dir="rtl" >
+	<h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;text-align:center;color: blue;position: relative;">HTML course</h1>
+    <img style="margin-right: 650px;" src="html.jpg" height="150" width="150" alt="HTML logo">
+	<nav style="background-color: rgb(51, 84, 105);color: white;position: sticky;">
+        <ul style="margin-right: 600px;">
+            <li>home</li>
+            <li>about </li>
+            <li>contact</li>
+        </ul>
+    </nav>
+    <h2>course description</h2>
 	<p dir="rtl">
         لغة <strong>HTML</strong> هي طريقة لكتاب وهيكلة صفحات الويب،
         ولاتعتبر <b>HTML</b> لغة برمجية بالمعنى الفعلي بل هي لغة وصفيّة،
@@ -81,8 +94,8 @@
     </table>
 
     <hr>
-    <h2 dir="ltr">نموذج الانضمام الى الدورة</h2>
-    <form dir="ltr">
+    <h2 style="text-align: center;" dir="ltr">نموذج الانضمام الى الدورة</h2>
+    <form style="text-align: right;" dir="ltr">
         <label for="name">اسم المستخدم:</label>
         <input type="text" id="name">
         <p>الجنس</p>
@@ -99,7 +112,7 @@
         <label for="social media">مواقع التواصل الاجتماعي</label><br>
         
         <label for="city">اختر مدينتك </label>
-        <select id="city" name="city">
+        <select style="text-align: center;" id="city" name="city">
             <option value="MACCA">مكة</option>
             <option value="JEDDAH">جدة</option>
             <option value="DAMMAM">الدمام</option>
@@ -107,7 +120,7 @@
 
         </select><br>
 
-        <input type="submit" value="الانضمام">
+        <input style="border-radius: 10px;color: blue;background-color: grey;position:relative;" type="submit" value="الانضمام">
     </form>
 </body>
 </html>
