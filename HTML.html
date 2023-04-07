@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scal=1.0">
+	<title>HTML course</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body dir="rtl">
+	<h1>HTML course</h1>
+    <img src="html.jpg" height="150" width="150" alt="HTML logo">
+	<h2>course description</h2>
+	<p dir="rtl">
+        لغة <strong>HTML</strong> هي طريقة لكتاب وهيكلة صفحات الويب،
+        ولاتعتبر <b>HTML</b> لغة برمجية بالمعنى الفعلي بل هي لغة وصفيّة،
+        أي أنها تستخدم لوصف الصفحة وتوزيع وترتيب محتواها
+        من نصوص وروابط وصور ومقاطع فيديو وما
+        إلى ذلك، وهي المكون الرئيسي لأي موقع ويب، تستخدم 
+        HTML مايسمى بالوسوم أو <b><em>Tags</em></b>
+        وهي عبارة عن رموز لكل منها مهمة خاصة يقوم بها،
+        فمنها ما يقوم بعرض العنوان ومنها ما يقوم بعرض النصوص
+        ومنها ما يقوم بعرض الصور أو الروابط أو مقاطع الفيديو وهكذا،
+        والمتصفح يفهم هذه الرموز أو الوسوم ويعرضها بالشكل المحدد والمطلوب
+    </p>
+    <p ><b>مواعيد المحاضرات اليومية</b><br>
+        من الساعة
+        8:00<sub>AM</sub>
+        الى الساعة
+        11:00<sub>AM</sub>
+    </p>
+    <p ><b>مستويات هذه الدورة</b><br>
+        1<sup>st</sup> level: اساسيات HTML<br>
+        2<sup>nd</sup> level: مفاهيم متقدمة في HTML
+    </p><hr>
+    <h2>اهداف هذه الدورة</h2>
+    <ol type="A">
+        <li>التعرف على مفهوم HTML</li>
+        <li>تعلم كل tag والغرض من استخدامه</li>
+        <li>طرق اضافة النصوص؟، الفيديوهات، وغيرها من المحتويات المعتادة في صفحات الويب</li>
+    </ol>
+    <h2>متطلبات هذه الدورة</h2>
+    <ul type="circle">
+        <li>متصفح</li>
+        <li>محرر نصوص</li>
+    </ul>
+    <p>للمرجع قم بالضغط 
+        <a href="https://dev.w3.org/html5/spec-LC/">هنا</a>
+    </p>
+
+    <video width="700" height="500" controls>
+        <source src="what is HTML.mp4" type="video/mp4">
+        video is unable to load
+    </video><br>
+
+    <audio controls>
+        <source src="HTML.mp3" type="audio/mp3">
+    </audio>
+
+    <table>
+        <caption> جدول اماكن المحاضرات</caption>
+        <tr>
+            <th>اليوم </th>
+            <th>المكان</th>
+        </tr>
+        <tr>
+            <td>الأحد & الإثنين</td>
+            <td>class A</td>
+        </tr>
+        <tr>
+            <td>الثلثاء & الاربعاء</td>
+            <td>class B</td>
+        </tr>
+        <tr>
+            <td colspan="2">الخميس
+                (عن بعد)</td>
+        </tr>
+    </table>
+
+    <hr>
+    <h2 dir="ltr">نموذج الانضمام الى الدورة</h2>
+    <form dir="ltr">
+        <label for="name">اسم المستخدم:</label>
+        <input type="text" id="name">
+        <p>الجنس</p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">ذكر</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">انثى</label>
+        <P>من اين سمعت بنا ؟</P>
+        <input type="checkbox" id="friend" name="friend">
+        <label for="friend">صديق</label><br>
+        <input type="checkbox" id="books" name="books">
+        <label for="books">كتب</label><br>
+        <input type="checkbox" id="social media" name="social media">
+        <label for="social media">مواقع التواصل الاجتماعي</label><br>
+        
+        <label for="city">اختر مدينتك </label>
+        <select id="city" name="city">
+            <option value="MACCA">مكة</option>
+            <option value="JEDDAH">جدة</option>
+            <option value="DAMMAM">الدمام</option>
+            <option value="MEDINAH">المدينة المنورة</option>
+
+        </select><br>
+
+        <input type="submit" value="الانضمام">
+    </form>
+</body>
+</html>
